@@ -46,10 +46,7 @@ void SmartHome_voidInitSystem(){
 	TIMER0_voidStartTimer();
 	PWM2_voidInit();
 	priv_voidInitLightSystem();
-	DIO_voidSetPinDirection(DIO_PORTB,DIO_PIN0,DIO_OUTPUT);//fan control pin
-	DIO_voidSetPinValue(DIO_PORTB,DIO_PIN0,DIO_HIGH);      //fan control pin
 	EEPROM_voidWriteByte(USER_COUNTER_ADDRESSS,0);
-	DIO_voidSetPinDirection(DIO_PORTB,DIO_PIN4,DIO_OUTPUT);
 }
 
 void priv_voidInitLightSystem(){
@@ -406,6 +403,8 @@ void priv_voidTempSensorSystem(){
 }
 
 void priv_LCDcontrolMainTerminal(){
+	bool validChoice = false;
+	while(!validChoice){
 	LCD_voidClearDisplay();
 	u8 key = KEY_NOT_PRESSED;
 	LCD_voidDisplayString("1)lights 0)exit");
@@ -415,9 +414,17 @@ void priv_LCDcontrolMainTerminal(){
 	switch(key){
 		case '1':
 		priv_voidLCDLightSystemControl();
+		validChoice = true;
 		break;
 		case '0':
+		validChoice = true;
 		return;
+		default:
+		LCD_voidClearDisplay();
+		LCD_voidDisplayString("Invalid choice!");
+		_delay_ms(1500);
+		validChoice = false;
+	}
 	}
 }
 

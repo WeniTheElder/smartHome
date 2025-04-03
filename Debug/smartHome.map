@@ -412,7 +412,7 @@ END GROUP
 .rela.plt
  *(.rela.plt)
 
-.text           0x00000000     0x1c1e
+.text           0x00000000     0x1c2e
  *(.vectors)
  .vectors       0x00000000       0x54 D:/ATMEL Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
                 0x00000000                __vector_default
@@ -607,145 +607,145 @@ END GROUP
                 0x00000cd4       0x2a smart_home_system_program.o
                 0x00000cd4                priv_voidInitLightSystem
  .text.SmartHome_voidInitSystem
-                0x00000cfe       0x70 smart_home_system_program.o
+                0x00000cfe       0x52 smart_home_system_program.o
                 0x00000cfe                SmartHome_voidInitSystem
  .text.priv_voidAddUser
-                0x00000d6e      0x1b6 smart_home_system_program.o
-                0x00000d6e                priv_voidAddUser
+                0x00000d50      0x1b6 smart_home_system_program.o
+                0x00000d50                priv_voidAddUser
  .text.priv_voidLockSystem
-                0x00000f24        0x2 smart_home_system_program.o
-                0x00000f24                priv_voidLockSystem
+                0x00000f06        0x2 smart_home_system_program.o
+                0x00000f06                priv_voidLockSystem
  .text.priv_voidCheckPassword
-                0x00000f26       0xc6 smart_home_system_program.o
-                0x00000f26                priv_voidCheckPassword
+                0x00000f08       0xc6 smart_home_system_program.o
+                0x00000f08                priv_voidCheckPassword
  .text.priv_voidDoorControl
-                0x00000fec       0x56 smart_home_system_program.o
-                0x00000fec                priv_voidDoorControl
+                0x00000fce       0x56 smart_home_system_program.o
+                0x00000fce                priv_voidDoorControl
  .text.priv_voidLightSystem
-                0x00001042      0x128 smart_home_system_program.o
-                0x00001042                priv_voidLightSystem
+                0x00001024      0x128 smart_home_system_program.o
+                0x00001024                priv_voidLightSystem
  .text.priv_voidAdminPage
-                0x0000116a       0x5a smart_home_system_program.o
-                0x0000116a                priv_voidAdminPage
+                0x0000114c       0x5a smart_home_system_program.o
+                0x0000114c                priv_voidAdminPage
  .text.priv_voidAdminLogin
-                0x000011c4       0x36 smart_home_system_program.o
-                0x000011c4                priv_voidAdminLogin
+                0x000011a6       0x36 smart_home_system_program.o
+                0x000011a6                priv_voidAdminLogin
  .text.priv_voidUserPage
-                0x000011fa       0x3c smart_home_system_program.o
-                0x000011fa                priv_voidUserPage
+                0x000011dc       0x3c smart_home_system_program.o
+                0x000011dc                priv_voidUserPage
  .text.priv_voidUserLogin
-                0x00001236      0x134 smart_home_system_program.o
-                0x00001236                priv_voidUserLogin
+                0x00001218      0x134 smart_home_system_program.o
+                0x00001218                priv_voidUserLogin
  .text.SmartHome_voidTerminalLoginMainMenu
-                0x0000136a       0x86 smart_home_system_program.o
-                0x0000136a                SmartHome_voidTerminalLoginMainMenu
+                0x0000134c       0x86 smart_home_system_program.o
+                0x0000134c                SmartHome_voidTerminalLoginMainMenu
  .text.priv_voidLCDLightSystemControl
-                0x000013f0      0x130 smart_home_system_program.o
-                0x000013f0                priv_voidLCDLightSystemControl
+                0x000013d2      0x130 smart_home_system_program.o
+                0x000013d2                priv_voidLCDLightSystemControl
  .text.priv_LCDcontrolMainTerminal
-                0x00001520       0x3c smart_home_system_program.o
-                0x00001520                priv_LCDcontrolMainTerminal
+                0x00001502       0x6a smart_home_system_program.o
+                0x00001502                priv_LCDcontrolMainTerminal
  .text.__vector_1
-                0x0000155c       0x48 smart_home_system_program.o
-                0x0000155c                __vector_1
+                0x0000156c       0x48 smart_home_system_program.o
+                0x0000156c                __vector_1
  .text.TIMER0_voidInit
-                0x000015a4       0x38 Timer0_program.o
-                0x000015a4                TIMER0_voidInit
+                0x000015b4       0x38 Timer0_program.o
+                0x000015b4                TIMER0_voidInit
  .text.TIMER0_voidStartTimer
-                0x000015dc       0x14 Timer0_program.o
-                0x000015dc                TIMER0_voidStartTimer
+                0x000015ec       0x14 Timer0_program.o
+                0x000015ec                TIMER0_voidStartTimer
  .text.TIMER0_voidSetCallBackFunction
-                0x000015f0        0xa Timer0_program.o
-                0x000015f0                TIMER0_voidSetCallBackFunction
+                0x00001600        0xa Timer0_program.o
+                0x00001600                TIMER0_voidSetCallBackFunction
  .text.__vector_11
-                0x000015fa       0x70 Timer0_program.o
-                0x000015fa                __vector_11
+                0x0000160a       0x70 Timer0_program.o
+                0x0000160a                __vector_11
  .text.__vector_10
-                0x0000166a       0x6e Timer0_program.o
-                0x0000166a                __vector_10
+                0x0000167a       0x6e Timer0_program.o
+                0x0000167a                __vector_10
  .text.UART_voidInit
-                0x000016d8       0x34 uart_program.o
-                0x000016d8                UART_voidInit
+                0x000016e8       0x34 uart_program.o
+                0x000016e8                UART_voidInit
  .text.UART_voidTxChar
-                0x0000170c        0x8 uart_program.o
-                0x0000170c                UART_voidTxChar
+                0x0000171c        0x8 uart_program.o
+                0x0000171c                UART_voidTxChar
  .text.UART_voidRxChar
-                0x00001714        0xc uart_program.o
-                0x00001714                UART_voidRxChar
+                0x00001724        0xc uart_program.o
+                0x00001724                UART_voidRxChar
  .text.UART_voidTxString
-                0x00001720       0x2a uart_program.o
-                0x00001720                UART_voidTxString
+                0x00001730       0x2a uart_program.o
+                0x00001730                UART_voidTxString
  .text.avr-libc.fplib
-                0x0000174a        0xe d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
-                0x0000174a                __subsf3
-                0x0000174c                __addsf3
+                0x0000175a        0xe d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3.o)
+                0x0000175a                __subsf3
+                0x0000175c                __addsf3
  .text.avr-libc.fplib
-                0x00001758       0xcc d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
-                0x0000177a                __addsf3x
+                0x00001768       0xcc d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(addsf3x.o)
+                0x0000178a                __addsf3x
  .text.avr-libc.fplib
-                0x00001824        0x8 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
-                0x00001824                __divsf3
+                0x00001834        0x8 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3.o)
+                0x00001834                __divsf3
  .text.avr-libc.fplib
-                0x0000182c       0xdc d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
-                0x0000184c                __divsf3x
-                0x00001852                __divsf3_pse
+                0x0000183c       0xdc d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(divsf3x.o)
+                0x0000185c                __divsf3x
+                0x00001862                __divsf3_pse
  .text.avr-libc.fplib
-                0x00001908       0x5e d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
-                0x00001908                __fixunssfsi
+                0x00001918       0x5e d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fixunssfsi.o)
+                0x00001918                __fixunssfsi
  .text.avr-libc.fplib
-                0x00001966       0x7a d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
-                0x00001966                __floatunsisf
-                0x0000196a                __floatsisf
+                0x00001976       0x7a d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(floatsisf.o)
+                0x00001976                __floatunsisf
+                0x0000197a                __floatsisf
  .text.avr-libc.fplib
-                0x000019e0        0xc d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
-                0x000019e0                __fp_inf
+                0x000019f0        0xc d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_inf.o)
+                0x000019f0                __fp_inf
  .text.avr-libc.fplib
-                0x000019ec        0x6 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
-                0x000019ec                __fp_nan
+                0x000019fc        0x6 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_nan.o)
+                0x000019fc                __fp_nan
  .text.avr-libc.fplib
-                0x000019f2        0xe d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
-                0x000019f2                __fp_pscA
+                0x00001a02        0xe d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscA.o)
+                0x00001a02                __fp_pscA
  .text.avr-libc.fplib
-                0x00001a00        0xe d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
-                0x00001a00                __fp_pscB
+                0x00001a10        0xe d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_pscB.o)
+                0x00001a10                __fp_pscB
  .text.avr-libc.fplib
-                0x00001a0e       0x22 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
-                0x00001a0e                __fp_round
+                0x00001a1e       0x22 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_round.o)
+                0x00001a1e                __fp_round
  .text.avr-libc.fplib
-                0x00001a30       0x44 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
-                0x00001a30                __fp_split3
-                0x00001a40                __fp_splitA
+                0x00001a40       0x44 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_split3.o)
+                0x00001a40                __fp_split3
+                0x00001a50                __fp_splitA
  .text.avr-libc.fplib
-                0x00001a74        0xe d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
-                0x00001a74                __fp_zero
-                0x00001a76                __fp_szero
+                0x00001a84        0xe d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(fp_zero.o)
+                0x00001a84                __fp_zero
+                0x00001a86                __fp_szero
  .text.avr-libc.fplib
-                0x00001a82        0x8 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
-                0x00001a82                __mulsf3
+                0x00001a92        0x8 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3.o)
+                0x00001a92                __mulsf3
  .text.avr-libc.fplib
-                0x00001a8a       0xd2 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
-                0x00001aa8                __mulsf3x
-                0x00001aae                __mulsf3_pse
+                0x00001a9a       0xd2 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/../../../../avr/lib/avr5\libm.a(mulsf3x.o)
+                0x00001ab8                __mulsf3x
+                0x00001abe                __mulsf3_pse
  .text.libgcc.div
-                0x00001b5c       0x28 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
-                0x00001b5c                _div
-                0x00001b5c                __divmodhi4
+                0x00001b6c       0x28 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_divmodhi4.o)
+                0x00001b6c                _div
+                0x00001b6c                __divmodhi4
  .text.libgcc.div
-                0x00001b84       0x44 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
-                0x00001b84                __udivmodsi4
- .text.libgcc   0x00001bc8        0xc d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
-                0x00001bc8                __tablejump2__
+                0x00001b94       0x44 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodsi4.o)
+                0x00001b94                __udivmodsi4
+ .text.libgcc   0x00001bd8        0xc d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_tablejump2.o)
+                0x00001bd8                __tablejump2__
  .text.libgcc.mul
-                0x00001bd4       0x1e d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
-                0x00001bd4                __umulhisi3
+                0x00001be4       0x1e d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_umulhisi3.o)
+                0x00001be4                __umulhisi3
  .text.libgcc.div
-                0x00001bf2       0x28 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
-                0x00001bf2                __udivmodhi4
-                0x00001c1a                . = ALIGN (0x2)
+                0x00001c02       0x28 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_udivmodhi4.o)
+                0x00001c02                __udivmodhi4
+                0x00001c2a                . = ALIGN (0x2)
  *(.fini9)
- .fini9         0x00001c1a        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
-                0x00001c1a                _exit
-                0x00001c1a                exit
+ .fini9         0x00001c2a        0x0 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+                0x00001c2a                _exit
+                0x00001c2a                exit
  *(.fini9)
  *(.fini8)
  *(.fini8)
@@ -764,11 +764,11 @@ END GROUP
  *(.fini1)
  *(.fini1)
  *(.fini0)
- .fini0         0x00001c1a        0x4 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
+ .fini0         0x00001c2a        0x4 d:/atmel studio/7.0/toolchain/avr8/avr8-gnu-toolchain/bin/../lib/gcc/avr/5.4.0/avr5\libgcc.a(_exit.o)
  *(.fini0)
-                0x00001c1e                _etext = .
+                0x00001c2e                _etext = .
 
-.data           0x00800060      0x226 load address 0x00001c1e
+.data           0x00800060      0x236 load address 0x00001c2e
                 0x00800060                PROVIDE (__data_start, .)
  *(.data)
  *(.data*)
@@ -777,33 +777,33 @@ END GROUP
  .rodata        0x00800060        0xc keyPad_program.o
  *(.rodata*)
  .rodata.str1.1
-                0x0080006c      0x21a smart_home_system_program.o
-                                0x21d (size before relaxing)
+                0x0080006c      0x22a smart_home_system_program.o
+                                0x22d (size before relaxing)
  *(.gnu.linkonce.r*)
-                0x00800286                . = ALIGN (0x2)
-                0x00800286                _edata = .
-                0x00800286                PROVIDE (__data_end, .)
+                0x00800296                . = ALIGN (0x2)
+                0x00800296                _edata = .
+                0x00800296                PROVIDE (__data_end, .)
 
-.bss            0x00800286        0x6
-                0x00800286                PROVIDE (__bss_start, .)
+.bss            0x00800296        0x6
+                0x00800296                PROVIDE (__bss_start, .)
  *(.bss)
  *(.bss*)
  .bss.local_u16OverFlowsCounter.1632
-                0x00800286        0x2 Timer0_program.o
+                0x00800296        0x2 Timer0_program.o
  .bss.local_u16OverflowCounter.1626
-                0x00800288        0x2 Timer0_program.o
+                0x00800298        0x2 Timer0_program.o
  .bss.priv_pfCallBackFunction
-                0x0080028a        0x2 Timer0_program.o
+                0x0080029a        0x2 Timer0_program.o
  *(COMMON)
-                0x0080028c                PROVIDE (__bss_end, .)
-                0x00001c1e                __data_load_start = LOADADDR (.data)
-                0x00001e44                __data_load_end = (__data_load_start + SIZEOF (.data))
+                0x0080029c                PROVIDE (__bss_end, .)
+                0x00001c2e                __data_load_start = LOADADDR (.data)
+                0x00001e64                __data_load_end = (__data_load_start + SIZEOF (.data))
 
-.noinit         0x0080028c        0x0
+.noinit         0x0080029c        0x0
                 [!provide]                PROVIDE (__noinit_start, .)
  *(.noinit*)
                 [!provide]                PROVIDE (__noinit_end, .)
-                0x0080028c                _end = .
+                0x0080029c                _end = .
                 [!provide]                PROVIDE (__heap_start, .)
 
 .eeprom         0x00810000        0x0
@@ -915,7 +915,7 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x3467
+.debug_info     0x00000000     0x3485
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x4e6 D:/ATMEL Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
  .debug_info    0x000004e6      0x1c7 ADC_program.o
@@ -929,11 +929,11 @@ END GROUP
  .debug_info    0x000019a0       0xbc main.o
  .debug_info    0x00001a5c      0x117 pwm1_program.o
  .debug_info    0x00001b73       0xf2 pwm2_program.o
- .debug_info    0x00001c65     0x1500 smart_home_system_program.o
- .debug_info    0x00003165      0x171 Timer0_program.o
- .debug_info    0x000032d6      0x191 uart_program.o
+ .debug_info    0x00001c65     0x151e smart_home_system_program.o
+ .debug_info    0x00003183      0x171 Timer0_program.o
+ .debug_info    0x000032f4      0x191 uart_program.o
 
-.debug_abbrev   0x00000000     0x1062
+.debug_abbrev   0x00000000     0x1073
  *(.debug_abbrev)
  .debug_abbrev  0x00000000      0x4a3 D:/ATMEL Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
  .debug_abbrev  0x000004a3       0xa9 ADC_program.o
@@ -947,11 +947,11 @@ END GROUP
  .debug_abbrev  0x00000ac0       0x68 main.o
  .debug_abbrev  0x00000b28       0xae pwm1_program.o
  .debug_abbrev  0x00000bd6       0xae pwm2_program.o
- .debug_abbrev  0x00000c84      0x236 smart_home_system_program.o
- .debug_abbrev  0x00000eba       0xb7 Timer0_program.o
- .debug_abbrev  0x00000f71       0xf1 uart_program.o
+ .debug_abbrev  0x00000c84      0x247 smart_home_system_program.o
+ .debug_abbrev  0x00000ecb       0xb7 Timer0_program.o
+ .debug_abbrev  0x00000f82       0xf1 uart_program.o
 
-.debug_line     0x00000000     0x1dad
+.debug_line     0x00000000     0x1dd2
  *(.debug_line .debug_line.* .debug_line_end)
  .debug_line    0x00000000      0x116 D:/ATMEL Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
  .debug_line    0x00000116      0x244 ADC_program.o
@@ -965,11 +965,11 @@ END GROUP
  .debug_line    0x00000f02       0x6a main.o
  .debug_line    0x00000f6c       0xe3 pwm1_program.o
  .debug_line    0x0000104f       0xcb pwm2_program.o
- .debug_line    0x0000111a      0xa08 smart_home_system_program.o
- .debug_line    0x00001b22      0x14b Timer0_program.o
- .debug_line    0x00001c6d      0x140 uart_program.o
+ .debug_line    0x0000111a      0xa2d smart_home_system_program.o
+ .debug_line    0x00001b47      0x14b Timer0_program.o
+ .debug_line    0x00001c92      0x140 uart_program.o
 
-.debug_frame    0x00000000      0x860
+.debug_frame    0x00000000      0x868
  *(.debug_frame)
  .debug_frame   0x00000000       0x34 ADC_program.o
  .debug_frame   0x00000034       0x54 DIO_program.o
@@ -982,11 +982,11 @@ END GROUP
  .debug_frame   0x00000394       0x24 main.o
  .debug_frame   0x000003b8       0x58 pwm1_program.o
  .debug_frame   0x00000410       0x44 pwm2_program.o
- .debug_frame   0x00000454      0x278 smart_home_system_program.o
- .debug_frame   0x000006cc      0x104 Timer0_program.o
- .debug_frame   0x000007d0       0x90 uart_program.o
+ .debug_frame   0x00000454      0x280 smart_home_system_program.o
+ .debug_frame   0x000006d4      0x104 Timer0_program.o
+ .debug_frame   0x000007d8       0x90 uart_program.o
 
-.debug_str      0x00000000      0xede
+.debug_str      0x00000000      0xeea
  *(.debug_str)
  .debug_str     0x00000000      0x196 D:/ATMEL Studio/7.0/Packs/atmel/ATmega_DFP/1.7.374/gcc/dev/atmega32/avr5/crtatmega32.o
  .debug_str     0x00000196      0x18c ADC_program.o
@@ -1011,14 +1011,14 @@ END GROUP
                                 0x1cd (size before relaxing)
  .debug_str     0x00000a2d       0x50 pwm2_program.o
                                 0x1b2 (size before relaxing)
- .debug_str     0x00000a7d      0x35a smart_home_system_program.o
-                                0x735 (size before relaxing)
- .debug_str     0x00000dd7       0xa5 Timer0_program.o
+ .debug_str     0x00000a7d      0x366 smart_home_system_program.o
+                                0x741 (size before relaxing)
+ .debug_str     0x00000de3       0xa5 Timer0_program.o
                                 0x234 (size before relaxing)
- .debug_str     0x00000e7c       0x62 uart_program.o
+ .debug_str     0x00000e88       0x62 uart_program.o
                                 0x205 (size before relaxing)
 
-.debug_loc      0x00000000     0x1d1b
+.debug_loc      0x00000000     0x1da6
  *(.debug_loc)
  .debug_loc     0x00000000      0x123 ADC_program.o
  .debug_loc     0x00000123      0x278 DIO_program.o
@@ -1029,9 +1029,9 @@ END GROUP
  .debug_loc     0x000009ba      0x4fc LCD_program.o
  .debug_loc     0x00000eb6       0xc3 pwm1_program.o
  .debug_loc     0x00000f79       0x1e pwm2_program.o
- .debug_loc     0x00000f97      0xa5a smart_home_system_program.o
- .debug_loc     0x000019f1      0x1d0 Timer0_program.o
- .debug_loc     0x00001bc1      0x15a uart_program.o
+ .debug_loc     0x00000f97      0xae5 smart_home_system_program.o
+ .debug_loc     0x00001a7c      0x1d0 Timer0_program.o
+ .debug_loc     0x00001c4c      0x15a uart_program.o
 
 .debug_macinfo
  *(.debug_macinfo)
