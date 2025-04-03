@@ -1,6 +1,6 @@
 # Smart Home System Project
 
-This project is designed to create a smart home system using embedded systems components such as sensors, an LCD, a keypad, and Bluetooth communication. The system allows users and admins to control various features, including lighting and door management.
+This project is designed to create a smart home system using Atmega32 and embedded systems components such as sensors, an LCD, a keypad, and Bluetooth communication. The system allows users and admins to control various features, including lighting and door management.
 
 ## Main Features
 
